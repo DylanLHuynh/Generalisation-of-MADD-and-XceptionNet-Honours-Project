@@ -1,6 +1,6 @@
 # Generalisation-of-MADD-and-XceptionNet-Honours-Project
 
-This project investigates the generalisation ability of deepfkae dtection models across diverse image datasets. Specifically, it compares the Multi-Attentional Deepfake Detector (MADD0 and XceptionNet models trained on the FaceForensics++ (FF++) dataset and fine-tuned on DF40 dataset. 
+This project investigates the generalisation ability of deepfkae dtection models across diverse image datasets. Specifically, it compares the Multi-Attentional Deepfake Detector (MADD0 and XceptionNet models trained on the FaceForensics++ (FF++) dataset and fine-tuned on DF40 dataset. It is then evaluated on the aforementioned FF++, DF40 and DeepfakeEval2024 datasets.
 
 The main goal is to assess how well deepfake detection models trained on one dataset (FF++) can generalise to unseen datasets (DF40). This helps understand model robustness against distribution shifts in real-world scenarios.
 
@@ -8,23 +8,23 @@ Key Components
 
 Datasets:
 
-Training: FaceForensics++ (FF++)
+  Training: FaceForensics++ (FF++)
 
-Evaluation: DeepfakeBench_DF40
+  Fine-tuning: DF40
 
 Models:
 
-MADD (Multi-attentional Deepfake Detector)
+  MADD (Multi-attentional Deepfake Detector)
 
-XceptionNet
+  XceptionNet
 
 Tasks:
 
-Model training, validation, and testing
+  Model training, validation, and testing
 
-Cross-dataset evaluation and performance comparison
+  Cross-dataset evaluation and performance comparison
 
-Metric-based analysis of generalisation ability
+  Metric-based analysis of generalisation ability
 
 Outcomes
 
