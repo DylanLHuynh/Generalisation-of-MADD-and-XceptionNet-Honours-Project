@@ -30,4 +30,4 @@ Outcomes
 
 This project provides insights into how model architecture and training data influence deepfake detection performance across domains, contributing to research on robust and generalisable deepfake detection systems.
 
-## The files provided are the files to train the MADD and XceptionNet models on the FaceForensics++ and DF40 datasets. Those datasets and models have to be downloaded at the resepctive author's repositories. 
+## The files provided are the files to train the MADD and XceptionNet models on the FaceForensics++ and DF40 datasets. Those datasets and models have to be downloaded at the resepctive author's repositories. A script is required to run it through powershell.
